@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #hero{
     /* background-image: url("assets/hero-bg.png"); */
     background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),
@@ -38,4 +39,49 @@
     background-color:  rgb(82, 195, 3);
     padding: 12px 20px;
     font-size: 16px;
+}
+
+/* Food */
+.food-container{
+    max-width: 1056px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+.food-container .food-container-desc h1{
+    font-size: 30px;
+    margin: 16px 0;
+    color: rgb(16, 16, 16);
+}
+.food-container p{
+    color: rgb(16, 16, 16);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 339px;
+    margin: 30px 0;
+}
+.cards-container{
+    display: flex;
+    gap: 16px;
+}
+.cards-container span{
+    background: rgba(82, 195, 3, 0.15);
+    display: inline;
+    padding: 12px 16px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+
+}
+.food-container .btn{
+    background-color: rgb(82, 195, 3);
+    padding: 15px 30px;
+    margin: 40px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
