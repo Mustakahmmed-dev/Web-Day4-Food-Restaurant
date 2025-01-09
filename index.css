@@ -128,3 +128,10 @@
 .social-media .fa-instagram{
     color: hotpink;
 }
+
+/* Footer */
+.footer{
+    padding: 70px 0;
+    background-image: url("assets/social-bg.png");
+    opacity: 1;
+}
