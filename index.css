@@ -121,12 +121,13 @@
 }
 .social-media i{
     font-size: 30px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .social-media{
     display: flex;
     gap: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .social-media .fa-facebook{
     color: blue;
@@ -140,6 +141,8 @@
     background-image: url("assets/social-bg.png");
     height: 80vh;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 #about-desc{
     top: 0;
